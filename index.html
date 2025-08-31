@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF=8">
+        <meta name="author" content="Moonfros">
+        <meta name="description" content="This is my second HTML attempt">
+<title>MY WEB PAGE</title>
+<link rel="icon" href="apo.ico" type="image/x-icon">
+<link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+        <H1><abbr title="Good Morning World">Ohayo Sekai</abbr></H1>
+
+        <nav aria-label="primary-navigation">
+
+            <ul>
+
+                <li>
+
+                    <a href="#html">learning html</a>
+
+                </li>
+                <li>
+                    <a href="#Typo">don't make typos</a>
+                </li>
+                <li>
+                    <a href="#contact">contact me</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+        <hr>
+    <main>
+
+    <article id="html">
+
+        <h2>Let's Begin</H2>
+        <p>This is a Web Page</p>
+        <section>
+            <h3>Cristiano Ronaldo</h3>
+        <img src="roron.png" alt="Ronaldo image" title="Cristiano Ronaldo" width="800" height="600">
+        <figure>
+            <figcaption>A Picture Of Ronaldo Winning The Ballon d'or</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+        </figure>
+        </section>
+        <h3>This is the beginning</h3>
+        <p>Yes I also agree with that:
+
+            <ol>
+            <li>...I am a Dev</li>
+            <li>... It's easy so far</li>
+            <li>... <abbr title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a></abbr></li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                    <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every Morning</p>
+                </details>
+            </aside>
+            <br>
+            <table>
+                <caption>My Daily Schedule</caption>
+                <thead>
+                
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td>
+                        <time datetime="08:00">8am</time>- <time datetime="11:00">11am</time>
+                    </td>
+                    <td>write code</td>
+                </tr>
+                <tr>
+                    <th scope="row">Break</th>
+                    <td>
+                        <time datetime="11:00">11am</time>- <time datetime="12:00">12pm</time>
+                    </td>
+                    <td>Eat Lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td>
+                        <time datetime="12:00">12pm</time>- <time datetime="17:00">5pm</time>
+                    </td>
+                    <td>Study for other courses</td>
+                </tr>
+                <tr>
+                    <th scope="row">Evening</th>
+                    <td rowspan="2">All Other Times</td>
+                    <td>Free Time</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td>Sleep</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">That's What I do daily</td>
+                </tr>
+            </tfoot>
+            </table>
+
+        </p>  
+        
+    </article>
+        
+        <hr>
+
+
+      
+    <article id="Typo">
+
+        <h2>Let's Begin</H2>
+            <p>Hello World</p>
+            <p>Good Morning</p>
+            <figure>
+            <img src="belling.png" alt="Jude Bellingham" title="Jude and Robert" width="800" height="600" loading="lazy">
+           <figcaption>
+            Imagine Jude Bellingham and Lewandowski on the same team
+           </figcaption> 
+           </figure>
+            <h3>Typo</h3>
+            <ul>
+            <li><p>It <strong>causes</strong> <em>errors</em></p></li>
+            <li><p>Don't type too fast</p></li>
+            <address>
+                Use Mavis Bacon
+            </address>
+            <figure>
+            <img src="dada.jpg" alt="Okarun Variant Image" title="Peak Wallpaper" loading="lazy" width="800" height="600">
+            <figcaption>
+                This Picture Looks Like Okarun
+            </figcaption>
+            </figure>
+        </article>
+    </main>
+    
+        </ul>
+            <!-- Add more text-->
+             <section>
+             <h3>Good Footballers</h3>
+             <dl>
+                <dt>Jude Bellingham</dt>
+                <dd>Rating 100</dd>
+                <dt>Cristiano Ronaldo</dt>
+                <dd>Rating 99</dd>
+                <dt>Lionel Messi</dt>
+                <dd>Rating 99</dd>
+             </dl>
+            </section>
+    <footer>
+        <article>
+            <h2>Contact Me</h2>
+            <p>I'd really like to hear from you</p>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                <p><label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus></p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Dennis" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="your secret" required autofocus>
+                </p>
+                <p>
+                    <label for="phonenumber">Phone Number:</label>
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="2348123456789" pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{4}" required autofocus>
+                </p>
+                <p>
+                    <label for="decade">Favourite Decade:</label>
+                <input type="number" name="decade" id="decade" min="1950"   max="2020"  step="10"   value="1980" required autofocus>
+                </p>
+                <p>
+                    <label for="coffee">Favourite Coffee:</label>
+                    <select name="coffee" id="coffee" multiple size="5">
+                        <optgroup label="Coffees">
+                        <option value="regular coffee">Regular Coffee</option>
+                        <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Drinks">
+                        <option value="latte">Latte</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="cortado">Cortado</option>
+                        <option value="americano">Americano</option>
+                    </optgroup>
+                        <option value="other" selected>Other</option>
+                    </select>
+                </p>
+              <!--   <p>
+                    <label for="coffee">Favourite Coffee:</label>
+                    <input type="text" name="coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                        <option value="coffee">
+                        <option value="latte">
+                        <option value="espresso">
+                        <option value="cortado">
+                        <option value="americano">
+                        <option value="other">
+                    </datalist>
+                </p> -->
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>What Is Your Favourite Food</legend>
+                <p>
+                    <input type="radio" name="food" id="tacos" value="tacos">
+                    <label for="tacos">Tacos</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="pizza" value="pizza">
+                    <label for="pizza">Pizza</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="other" value="other">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do You Have Pets</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="dog" value="dog">
+                    <label for="dog">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="cat" value="cat">
+                    <label for="cat">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="fish" value="fish">
+                    <label for="fish">Fish</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="otherpet" value="otherpet">
+                    <label for="otherpet">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send Me A Note</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </form>
+        </article>
+     <hr>
+     &lt&lt&lt &copy <a href="about.html">Moonfros</a> &gt&gt&gt
+
+     <p>
+         <a href="#">Back to Top</a>
+     </p>
+    </footer>
+     
+
+    </body>
+</html>
